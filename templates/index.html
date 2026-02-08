@@ -1,1 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nainsi Raja Parmar | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">Nainsi Raja Parmar</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div id="home" class="hero">
+        <div class="container">
+            <h1>Hi, I'm <span class="name">Nainsi Raja Parmar</span></h1>
+            <p class="typing-text" id="typingText"></p>
+            <p>
+                B.Tech student at <strong>NIT Agartala</strong> with CGPA 9.12<br>
+                Passionate about Data Structures, Algorithms & Full Stack Development
+            </p>
+            <a class="btn" href="https://github.com/nainsirp" target="_blank">
+                <i class="fab fa-github"></i> View GitHub Profile
+            </a>
+        </div>
+    </div>
+
+    <!-- SKILLS SECTION -->
+    <div id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Technologies and tools I work with</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming</h3>
+                    <p>C++, Python, C</p>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Dev</h3>
+                    <p>HTML, CSS, JavaScript, TypeScript, Node.js, Flask</p>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Core CS</h3>
+                    <p>DSA, OOP, OS, DBMS, CN</p>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Libraries & Tools</h3>
+                    <p>Git, GitHub, VS Code, Pandas, NumPy, Matplotlib</p>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECTS SECTION -->
+    <div id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Recent work and implementations</p>
+            <div class="cards">
+                <div class="card">
+                    <h3>💾 Memory Allocator</h3>
+                    <p>
+                        Implemented first-fit, best-fit, and worst-fit memory allocation strategies
+                        in a modular C++ simulation with comprehensive testing and performance analysis.
+                    </p>
+                    <br>
+                    <a href="https://github.com/nainsirp/Memory_allocation" target="_blank">
+                        <i class="fab fa-github"></i> View Project →
+                    </a>
+                </div>
+
+                <div class="card">
+                    <h3>✈️ FlySmart</h3>
+                    <p>
+                        Intelligent flight fare tracking application using Amadeus API with real-time monitoring,
+                        price alerts, and comprehensive data visualization.
+                    </p>
+                    <br>
+                    <a href="https://github.com/nainsirp/FlySmart" target="_blank">
+                        <i class="fab fa-github"></i> View Project →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ACHIEVEMENTS SECTION -->
+    <div id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title">Competitive Programming</h2>
+            <p class="section-subtitle">Coding platform achievements and ratings</p>
+            <div class="cards">
+                <div class="card achievement-card">
+                    <div class="platform">LeetCode</div>
+                    <p><strong>Username:</strong> <a href="https://leetcode.com/u/nainsi_py/"
+                            target="_blank">nainsi_py</a></p>
+                    <div class="rating">1854</div>
+                    <p class="label">Max Rating</p>
+                </div>
+
+                <div class="card achievement-card">
+                    <div class="platform">Codeforces</div>
+                    <p><strong>Username:</strong> <a href="https://codeforces.com/profile/Nainsi_rp"
+                            target="_blank">Nainsi_rp</a></p>
+                    <div class="rating">1104</div>
+                    <p class="label">Current Rating</p>
+                </div>
+
+                <div class="card achievement-card">
+                    <div class="platform">CodeChef</div>
+                    <p><strong>Username:</strong> <a href="https://www.codechef.com/users/parmar_r_n_06"
+                            target="_blank">parmar_r_n_06</a></p>
+                    <div class="rating">1456 ★★</div>
+                    <p class="label">2 Star Rating</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <div id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's connect and collaborate</p>
+            <div class="cards">
+                <div class="card contact-card">
+                    <div class="icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/nainsi-r-parmar-22731b2a4/" target="_blank">
+                        Connect with me →
+                    </a>
+                </div>
+
+                <div class="card contact-card">
+                    <div class="icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/nainsirp" target="_blank">
+                        View repositories →
+                    </a>
+                </div>
+
+                <div class="card contact-card">
+                    <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p style="margin-top: 10px;"><strong>nainsiraja6022@gmail.com</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to top button -->
+    <div class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Nainsi Raja Parmar. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Typing effect
+        const texts = [
+            'Full Stack Developer',
+            'Problem Solver',
+            'Tech Enthusiast',
+            'Competitive Programmer'
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingElement = document.getElementById('typingText');
+
+        function type() {
+            const currentText = texts[textIndex];
+
+            if (isDeleting) {
+                typingElement.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingElement.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            let typeSpeed = isDeleting ? 50 : 100;
+
+            if (!isDeleting && charIndex === currentText.length) {
+                typeSpeed = 2000;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % texts.length;
+                typeSpeed = 500;
+            }
+
+            setTimeout(type, typeSpeed);
+        }
+
+        // Start typing effect
+        setTimeout(type, 1000);
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+
+            // Scroll to top button
+            const scrollTop = document.getElementById('scrollTop');
+            if (window.scrollY > 300) {
+                scrollTop.classList.add('visible');
+            } else {
+                scrollTop.classList.remove('visible');
+            }
+        });
+
+        // Scroll to top functionality
+        document.getElementById('scrollTop').addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all animated elements
+        document.querySelectorAll('.section-title, .section-subtitle, .skill-card, .card').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+
+</body>
+
+
+</html>
 

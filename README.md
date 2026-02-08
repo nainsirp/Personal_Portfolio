@@ -1,12 +1,15 @@
-# Personal Portfolio Website
+# 🌟 Personal Portfolio Website
 
-A modern, vibrant, and fully responsive portfolio website built with Flask, showcasing my skills, projects, and competitive programming achievements.
+A modern, vibrant, and fully responsive portfolio website built with pure HTML, CSS, and JavaScript, showcasing my skills, projects, and competitive programming achievements.
+
+🔗 **Live Demo**: [https://nainsirparmar.netlify.app/](https://nainsirparmar.netlify.app/)
 
 ![Portfolio Preview](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.14-blue?style=for-the-badge&logo=python)
-![Flask](https://img.shields.io/badge/Flask-3.0-black?style=for-the-badge&logo=flask)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## Features
+## ✨ Features
 
 - **🎨 Vibrant Design**: Eye-catching animated gradient background with smooth transitions
 - **⚡ Dynamic UI**: 
@@ -25,9 +28,9 @@ A modern, vibrant, and fully responsive portfolio website built with Flask, show
 
 ## 🛠️ Tech Stack
 
-- **Backend**: Flask (Python)
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Styling**: Custom CSS with animations and transitions
+- **HTML5**: Structure and content
+- **CSS3**: Styling with animations and transitions (external file)
+- **JavaScript**: Interactive features (embedded in HTML)
 - **Icons**: Font Awesome 6.4.0
 - **Fonts**: Google Fonts (Poppins)
 
@@ -35,11 +38,8 @@ A modern, vibrant, and fully responsive portfolio website built with Flask, show
 
 ```
 portfolio/
-├── main.py                 # Flask application
-├── templates/
-│   └── index.html         # Main HTML template
-├── static/
-│   └── style.css          # Custom CSS styles
+├── index.html        # Main HTML file (includes embedded JavaScript)
+├── style.css          # Custom CSS styles with animations
 └── README.md              # Project documentation
 ```
 
@@ -47,8 +47,7 @@ portfolio/
 
 ### Prerequisites
 
-- Python 3.x
-- Flask
+- A modern web browser (Chrome, Firefox, Safari, Edge)
 
 ### Installation
 
@@ -58,20 +57,21 @@ portfolio/
    cd portfolio
    ```
 
-2. **Install dependencies**
-   ```bash
-   pip install flask
-   ```
+2. **Open the portfolio**
+   - Navigate to the `templates` folder
+   - Open `index.html` in your web browser
+   
+   **OR**
+   
+   - Simply double-click on `index.html` to open it in your default browser
 
-3. **Run the application**
-   ```bash
-   python main.py
-   ```
+### Alternative: Using Live Server (Recommended)
 
-4. **Open in browser**
-   ```
-   http://127.0.0.1:5000
-   ```
+If you have VS Code with Live Server extension:
+
+1. Open the project folder in VS Code
+2. Right-click on `index.html`
+3. Select "Open with Live Server"
 
 ## 🎨 Customization
 
@@ -145,4 +145,3 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-⭐ **Star this repository if you found it helpful!**
